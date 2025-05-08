@@ -11,4 +11,7 @@ public:
 
     bool inside(const Vec3 &p) const;
     Vec3 project(const Vec3 &p) const;
+
+    double getRadius() const { return radius; }
+    Vec3 getCenter() const { return center; }
 };
